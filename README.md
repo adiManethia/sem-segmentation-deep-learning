@@ -110,3 +110,14 @@ data and model checkpoints or independently trained replacements.
 This repository preserves the implementation of the original
 2025 academic project with minimal maintenance corrections.
 No models were retrained for this public release.
+
+## License
+
+The source code is released under the [MIT License](LICENSE).
+
+The original SEM datasets and third-party microscopy images
+are not included in this repository and are not covered by
+this license.
+
+The original academic report is retained privately because
+it contains SEM imagery provided for academic use only.
