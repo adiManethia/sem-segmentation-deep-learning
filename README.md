@@ -8,6 +8,41 @@ in Scanning Electron Microscopy (SEM) images using classical
 image processing, GAN-based synthetic data generation, U-Net,
 and Attention U-Net.
 
+## Public Visual Demonstrations
+
+To preserve data privacy, the original SEM images used in the academic project are not included in this public repository. Instead, the repository provides safe public demonstration figures and historical project metrics.
+
+### Synthetic Microstructure Generation
+
+![Synthetic Voronoi Demo](docs/figures/synthetic_voronoi_demo.png)
+
+This figure shows an independently generated Voronoi-based synthetic microstructure and its exact ground-truth boundary mask.
+
+### Classical Segmentation Example
+
+![Classical Segmentation Demo](docs/figures/classical_segmentation_demo.png)
+
+This example shows a public synthetic image together with a classical K-Means segmentation result and the derived boundary mask.
+
+### Historical Synthetic-Test Accuracy
+
+![Model Accuracy](docs/figures/model_accuracy.png)
+
+These values are historical results from the original academic project and correspond to synthetic test data.
+
+### Historical Inference-Time Comparison
+
+![Inference Comparison](docs/figures/inference_comparison.png)
+
+These values are historical timing results reported in the original academic project.
+
+## Additional Project Notes
+
+A brief public summary of the project is available in [docs/PROJECT_OVERVIEW.md](docs/PROJECT_OVERVIEW.md).
+
+**Full academic report:** available upon request.  
+The original report contains private SEM imagery provided for academic use only and is therefore not redistributed publicly in this repository.
+
 ## Project Overview
 
 The workflow consists of:
