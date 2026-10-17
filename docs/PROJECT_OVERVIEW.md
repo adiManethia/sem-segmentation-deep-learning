@@ -1,6 +1,6 @@
 # Project Overview
 
-This repository contains the implementation of a 23-week Master's Personal Programming Project completed at TU Bergakademie Freiberg in 2025.
+This repository contains the implementation of a 23-week Master's Personal Programming Project completed at TU Bergakademie Freiberg.
 
 ## Objective
 
