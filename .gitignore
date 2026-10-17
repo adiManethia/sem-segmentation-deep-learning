@@ -1,0 +1,54 @@
+cat > .gitignore <<'EOF'
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Private datasets and generated outputs
+Deep_learning_Pipeline/grain_segmentation/data/
+Deep_learning_Pipeline/grain_segmentation/stats_outputs/
+Deep_learning_Pipeline/evaluation/
+
+Segmentation_with_traditional_methods/sem_segmentation_results/
+Segmentation_with_traditional_methods/voronoi_test/voronoi_generation/
+
+test_cases/gan_justification_tests/
+test_cases/metric_outputs/
+
+# Model checkpoints
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+
+# Images and binary datasets
+*.tif
+*.tiff
+*.png
+*.jpg
+*.jpeg
+*.bmp
+*.webp
+*.npy
+*.npz
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.parquet
+
+# Reports and potentially sensitive datasets
+*.pdf
+*.csv
+*.tsv
+
+# Logs
+*.log
+EOF
